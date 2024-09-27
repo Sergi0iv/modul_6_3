@@ -4,7 +4,6 @@ class Horse:
         self.sound = 'Frrr'
 
     def run(self, dx):
-        self.dx = dx
         self.x_distance = dx
         print(dx)
 
@@ -15,7 +14,6 @@ class Eagle:
         self.sound = 'I train, eat, sleep, and repeat'
 
     def fly(self, dy):
-        self.dy = dy
         self.y_distance = dy
         print(dy)
 
